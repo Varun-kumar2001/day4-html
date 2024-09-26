@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <form autocomplete="on" align="center">
+        <h1>SIGN UP</h1>
+        <label for="email">email</label>
+        <input type="email" placeholder="enter your mail" id="email"> <br>
+        <label for="password">password</label>
+        <input type="password" placeholder="enter your password" required> <br>
+        <label for="age">age</label>
+        <input type="number" placeholder="enter ur age" min="18" max="60" id="age"> <br>
+        <label for="date">date of birth</label>
+        <input type="date" placeholder="enter date" id="date"> <br>
+        <label for="resume">resume</label>
+        <input type="file" accept="pdf"> <br>
+        <input type="checkbox"><span>terms and conditions</span> <br>
+        <input type="radio"><span>male</span>
+        <input type="radio"><span>female</span>
+        <input type="radio"><span>others</span> <br>
+        <label for="user name">user name</label>
+        <input type="text" placeholder="enter user name" required> <br>
+        <label for="gender">gender</label>
+        <select id="gender" required>
+            <option>select gender</option>
+            <option>male</option>
+            <option>female</option>
+            <option>others</option>
+        </select> <br>
+        <select>
+            <optgroup>
+                <option>select country</option>
+                <option>india</option>
+                <option>america</option>
+                <option>australia</option>
+            </optgroup>
+        </select>
+        <label for="countries">countries</label>
+          <input list="countries">
+          <datalist id="countries">
+            <option>india</option>
+            <option>srilanka</option>
+            <option> europe</option>
+          </datalist>
+    </form>
+</div>
+    
+</body>
+</html>
